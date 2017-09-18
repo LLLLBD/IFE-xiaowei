@@ -1,0 +1,40 @@
+*{
+	box-sizing: border-box;
+}
+
+.container {
+	background-color: #eee;
+	border: 1px solid #999;
+	padding: 20px;
+	overflow: hidden;
+}
+section {
+	border: 1px solid #999;
+	background-color: white;
+	display: block;
+}
+.left {
+	width: 200px;
+	height: 120px;
+	float: left;
+
+}
+img {
+	width: 80px;
+	height: 80px;
+	margin: 20px;
+	border: 1px solid #999;
+}
+span {
+	padding: 20px;
+	float: right;
+}
+.right {
+	width: 120px;
+	float: right;
+}
+.main {
+	margin-left: 220px;
+	margin-right: 140px;
+	padding: 20px;
+}
