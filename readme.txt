@@ -1,2 +1,9 @@
 百度前端学院
 xiaowei.
+[task_1](https://llllbd.github.io/IFE-xiaowei/task_1)
+[task_2](https://llllbd.github.io/IFE-xiaowei/task_2)
+[task_3](https://llllbd.github.io/IFE-xiaowei/task_3)
+[task_4](https://llllbd.github.io/IFE-xiaowei/task_4)
+[task_5](https://llllbd.github.io/IFE-xiaowei/task_5)
+[task_6](https://llllbd.github.io/IFE-xiaowei/task_6)
+[task_7](https://llllbd.github.io/IFE-xiaowei/task_7)
