@@ -1,0 +1,514 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+body {
+	min-width: 1280px;
+	height: 4554px;
+}
+
+/*header*/
+header {
+	position: relative;
+	height: 56px;
+}
+header > .container {
+	position: relative;
+	width: 1280px;
+	line-height: 53px;
+}
+header > .container > .h_left {
+	float: left;
+	margin-left: 20px;
+	position: relative;
+}
+header > .container > .h_left img{
+	display: block;
+	float: left;
+	margin-top: 10px;
+}
+header > .container > .h_left p{
+	float: left;
+	font-size: 21px;
+}
+header > .container > .h_right {
+	float: right;
+	margin: 0 20px;
+}
+
+header > .container > .h_right img{
+	display: block;
+	float: left;
+	margin-top: 19px;
+}
+header > .container > .h_right p{
+	float: left;
+	font-size: 14px;
+	margin: 0 5px;
+	color: red;
+}
+
+header > .container > nav {
+	float: right;
+	position: relative;
+}
+nav > a{
+	padding: 0 20px;
+	color: black;
+	display: block;
+	float: left;
+}
+nav > .active {
+	color: #f00;
+	border-bottom: 3px solid #f00;
+}
+section {
+	width: 1280px;
+	position: relative;
+}
+/*screen_1*/
+.screen_1 {	height: 854px;
+}
+.screen_1 > .p_1 {
+	width: 1280px;
+	height: inherit;
+	background: url(../img/p_1.png) no-repeat center;
+	display: block;
+	position: relative;
+}
+.p_1 > .zz {
+	background-color: rgba(0,0,0,.2);
+	height:inherit;
+	width: 100%;
+	position: absolute;
+}
+.p_1 > .begin {
+	left: 130px;
+    top: 220px;
+	position: absolute;
+}
+.p_1 h1,
+.p_1 h4,
+.p_1 a{
+	color: white;
+}
+.p_1 h1 {
+	font-size: 60px;
+	margin: 10px 0;
+}
+.p_1 h4 {
+	font-size: 21px;
+	margin: 10px 0;
+}
+.p_1>.begin> a{
+	width: 331px;
+	height: 65px;
+	background-color: #e74f4d;
+	border-radius: 3px;
+	display: block;
+	margin: 60px 0;
+}
+.p_1 p{
+	font-size: 30px;
+	line-height: 65px;	
+	text-align: center;
+}
+
+.screen_2{
+	height: 610px;
+}
+.screen_2 > ul {
+	height: 250px;
+	text-align: center;
+}
+.screen_2 li {
+	width: 25%;
+	float: left;
+	margin-top: 50px;
+	display: block;
+	position: relative;
+}
+.screen_2 li>p{
+	margin-top: 50px;
+	width: 60%;
+	padding: 0px 63px 20px 63px;
+}
+.screen_2 li >.line{	
+	border-right: 1px solid #aaaaaa;
+}
+.screen_2 > .about{
+	height: 360px;
+	text-align: center;
+	background-color: #edecec;
+	position: relative;
+}
+.screen_2 > .about img{
+	top: 80px;
+    position: absolute;
+
+}
+.screen_2 > .about p{
+	bottom: 65px;
+	left: 245px;
+    position: absolute;
+	font-size: 53px;
+	color: #a1a1a1;
+}
+
+.screen_3 {
+	height: 945px;
+}
+.screen_3 > .found {
+	height: 340px;
+	text-align: center;
+	background: url(../img/4-1.png) no-repeat;
+	position: relative;
+}
+.screen_3 > .found > .found_info {
+	top: 40px;
+	color: white;
+	position: relative;
+}
+.screen_3 > .found > .found_info h1 {
+	font-size: 21px;
+}
+.screen_3 > .found > .found_info h4 {
+	font-size: 12px;
+    margin: 10px 0;
+}
+
+.screen_3 > .found > form{
+	height: 36px;    
+	bottom: 115px;
+    left: 80px;	
+    position: absolute;
+}
+.screen_3 > .found >form >select,
+.screen_3 > .found >form >a{
+	width: 236px;
+	height: 36px;
+	margin: 0 20px;
+	padding: 0 20px;
+	float: left;
+}
+.screen_3 > .found >form >select {
+	color: #a8aaaa;
+	font-size: 12px;
+}
+.screen_3 > .found >form >a{
+	background-color: #be4f48;
+	line-height: 36px;
+	font-size: 14px;
+}
+.screen_3 > .found_city {
+	height: 605px;
+	background-color: #f7f7f7;
+	position: relative;
+}
+.screen_3 > .found_city >img{
+	position: absolute;
+}
+.screen_3 > .found_city > .img_1 {
+	top: 115px;
+    left: 165px;
+    z-index: 5;
+}
+.screen_3 > .found_city > .img_2 {
+	top: 107px;
+    left: 226px;
+    z-index: 6;
+}
+.screen_3 > .found_city >div{
+	width: 219px;
+	height: 337px;
+	float: left;
+	background-color: #ffffff;	
+    border: 1px solid #e0e0e0;
+	position: relative;
+}
+.screen_3 > .found_city >.p3_bg{
+	top: 102px;
+    left: 155px;
+    border-bottom: none;
+}
+.screen_3 > .found_city >.p4_bg{
+	top: 153px;
+    left: 189px;
+}
+.screen_3 > .found_city >.p5_bg{
+    top: 103px;
+    left: 225px;
+    border-bottom: none;
+}
+.screen_3 > .found_city >.p6_bg{
+    top: 103px;
+    left: 260px;
+    border-bottom: none;
+}
+
+.screen_4 {
+	height: 565px;
+}
+.screen_4 > .screen_4_left{
+	height: inherit;
+	width: 850px;	
+	float: left;
+	background: url(../img/6-1.png) no-repeat;
+	color: white;
+	text-align: center;
+	position: relative;
+}
+.screen_4_left > .screen_4_left_cont {
+	top: 140px;
+	position: relative;
+}
+.screen_4_left:before{
+	content: url(../img/arraw1.png);
+    float: right;
+    top: 262px;
+    right: -2px;
+    position: relative;
+}
+.screen_4_left h3{
+	font-size: 49px;
+}
+.screen_4_left h1{
+	font-size: 157px;
+	margin: -30px 0;
+}
+.screen_4_left p{
+	font-size: 21px;
+	margin: 10px 0 5px 0;
+}
+.screen_4 > .screen_4_right{
+	width: 430px;
+    height: inherit;
+    float: left;
+    position: relative;
+}
+.screen_4_right >.screen_4_right_head{
+    width: 103px;  
+    height: 20px;
+    margin-top: 165px;
+    background: url(../img/nw_01.png);
+}
+.screen_4_right >.screen_4_right_cont{
+	margin: 40px 70px;
+	line-height: 32px;
+	font-size: 12px;
+	color: #aaaaaa;
+}
+.screen_4_right >.screen_4_right_more {
+	width: 107px;
+	height: 35px;
+	color: #e25c60;
+	font-size: 12px;
+	line-height: 35px;
+	text-align: center;
+	border: 1px solid #e25c60;
+}
+.screen_4_right >.screen_4_right_dots {
+	text-align: center;
+	margin-top: 20px;
+}
+.screen_4_right_dots img {
+	margin: 0 5px;
+}
+
+.screen_5 {
+	height: 521px;
+}
+.screen_5 nav {
+	height: inherit;
+	float: left;
+	text-align: center;
+}
+.screen_5 > .screen_5_1 {
+	width: 425px;
+	background-color: #e74f4d;
+	color: white;
+}
+.screen_5 > .screen_5_2 {
+	width: 425px;
+	background-color: white;
+	color: black;
+}
+.screen_5 p {
+	font-size: 21px;
+	top: 150px;	
+	position: relative;
+}
+.screen_5 span {
+	font-size: 32px;	
+
+	top: 150px;	
+	position: relative;
+}
+.screen_5 .creen_5_more {
+	width: 170px;
+	height: 44px;
+	top: 165px;	
+	line-height: 44px;
+	border: 1px solid;	
+	position: relative;
+}
+.screen_5 > .screen_5_2 > .creen_5_more {
+	color: #e74f4d;
+}
+.screen_5 > .screen_5_3 {
+	width: 430px;
+	background: url(../img/7-1.png);
+}
+.screen_6 {
+	height: 650px;
+}
+.screen_6 > .join_us {
+	width: 100%;
+	height: 250px;
+	text-align: center;
+	position: relative;
+}
+.join_us h1 {
+	padding-top: 70px;
+	font-size: 21px;
+	color: #323333;
+}
+.join_us span {
+	font-size: 32px;
+	line-height: 15px;
+	color: red;
+}
+.join_us p {
+	font-size: 12px;
+	color: #aaaaaa;
+}
+.screen_6 > .screen_6_left{
+	width: 426px;
+	height: 400px;
+	float: left;
+	position: relative;
+}
+.screen_6_left > .screen_6_left_1{
+	width: 288px;
+	float: right;
+	position: relative;
+}
+.screen_6_left .screen_6_left_head{
+	font-size: 14px;
+	margin: 14px 0;
+	color: rgba(35,24,21,0.8);
+}
+.screen_6_left .screen_6_left_cont{
+	font-size: 12px;
+	margin: 28px 0 0 0;
+	color: rgba(35,24,21,0.6);
+}
+.screen_6_left .screen_6_left_more{
+	font-size: 12px;
+	color: rgba(35,24,21,0.6);
+	float: right;
+}
+.screen_6 > .screen_6_right{
+	width: 854px;
+	height: 400px;
+	float: left;
+	position: relative;
+}
+.screen_6_right div{
+	width: 311px;
+	height: 41px;
+	line-height: 41px;
+	background-color: #edecee;
+	float: left;
+	left: 70px;
+	margin: 5px 10px;
+	position: relative;
+}
+.screen_6_right  div label {
+	margin-left: 20px;
+	font-size: 12px;
+	color: rgba(35,24,21,0.6); 
+}
+.screen_6_right > div input {
+	border: none;
+	background-color: inherit;
+}
+.screen_6_right > a .commit{
+	width: 639px;
+	height: 41px;
+	text-align: center;
+	line-height: 41px;
+	font-size: 14px;
+}
+.screen_6_right > .textarea {
+	width: 639px;
+	height: 121px;
+}
+.screen_6_right > div textarea {
+	margin-left: 20px;
+	width: 94%;
+	height: 50%;
+	border: none;
+	background-color: inherit;
+}
+.screen_7 {
+	height: 358px;
+	text-align: center;
+	background-color: #32363e;
+}
+.screen_7 > .screen_7_container{
+    top: 120px;
+    position: relative;
+    color: #ffffff;
+}
+.screen_7 h1 {
+	font-size: 21px;
+}
+.screen_7 p {
+	font-size: 12px;
+}
+.screen_7 form {
+	width: 516px;
+	height: 41px;
+	margin: 30px auto;
+	position: relative;
+}
+.screen_7 form input {
+	width: 431px;
+	height: inherit;
+	float: left;
+	position: relative;
+}
+.screen_7 form a{
+	width: 80px;
+	height: 45px;
+	background-color: #6f7178;
+	color: #ffffff;
+	font-size: 15px;
+	line-height: 45px;
+	float: left;
+	position: relative;
+}
+footer {
+	width: 1280px;
+	height: 58px;
+	background-color: #2f2f38;
+	line-height: 64px;
+	font-size: 12px;
+	color: #ffffff;
+	position: relative;
+}
+footer p {
+	float: left;
+	left: 50px;
+	position: absolute;
+}
+footer a {
+	float: right;
+	right: 50px;
+	position: absolute;
+	color: inherit;
+}
