@@ -1,0 +1,194 @@
+* {
+	margin: 0;
+	padding: 0;	
+	box-sizing: border-box;
+}
+a,p {	
+	text-decoration: none;
+	display: inline-block;
+}
+
+div {
+	display: block;
+}
+header {
+	width: 100%;
+	height: 56px;
+	background-color: #2189bf;
+}
+header .wrap {
+	width: 94%;
+	height: inherit;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+header .wrap .logo {
+	width: 36px;
+	height: 36px;
+	margin-left: 50px;
+	background: url(../img/logo_1.png) no-repeat;
+}
+header .wrap .search {	
+	line-height: 32px;
+	float: right;
+}
+.search input {
+	width: 312px;
+	height: 28px;
+	padding: 0 36px;
+	border-radius: 2em;
+	border: none;
+	position: relative;
+}
+.search button{
+	width: 17px;
+	height: 17px;
+	background: url(../img/h_2.png);	
+    top: 18px;
+    z-index: 2;
+    margin-left: 15px;
+    border: none;
+    position: absolute;
+}
+.signin {
+	margin: 0 5px;
+	padding: 3px 6px 0px 6px;
+	line-height: 28px;
+	float: right;
+	position: relative;
+}
+.signin p {
+	color: white;
+	font-size: 12px;
+	line-height: 24px;
+	float: right;
+}
+aside {
+	width: 260px;
+	height: 1213px;
+	background-color: #2a2e3d;
+	float: left;
+	position: absolute;
+}
+
+aside a,aside span,aside p,aside nav{
+	color: #6e8095;
+}
+aside .my {
+	height: 47px;
+	line-height: 47px;
+	margin: 25px 50px 0 50px;
+}
+aside .my .my_head {
+	width: 47px;
+	height: 47px;
+	border-radius: 50%;
+	float: left;
+}
+aside .my p {
+	color: white;
+	margin-left: 20px;
+	float: left;
+}
+aside .my_info {
+	width: inherit;
+	height: 45px;
+	margin: 20px 0;
+    padding: 0px 60px;
+}
+aside .my_info div {
+	width: 43px;
+	margin: 0 5px;
+	text-align: center;
+	float: left;
+}
+.my_info .my_fan {
+	padding-left: 25px;
+	border-left: 1px solid #6e8095 ;
+}
+aside .my_info div p {
+	float: left;
+	font-size: 16px;
+}
+aside .my_info div span {
+	float: left;
+	font-size: 12px;
+}
+aside .check {
+	color: white;
+}
+aside .my_table {
+	background-color: #383d4e;
+}
+aside .my_item {
+	padding: 15px 0 15px 55px;
+	font-size: 12px;
+}
+aside .my_item div {
+	width: 60px;
+	height: 110px;
+	margin: 15px 30px;
+}
+aside .my_item div .doc{
+	width: 48px;
+	margin: 5px 0;
+	float: left;
+}
+aside .my_item nav {
+	font-size: 12px;
+	margin: 10px 0 0 15px;
+}
+.main {
+	width: 1089px;
+	height: 1213px;
+	float: right;
+	position: relative;
+}
+/*当前目录*/
+.main_head {
+	height: 21px;
+	margin-left: 30px;
+	color: #aaaaaa;
+	font-size: 12px;
+	line-height: 21px;
+}
+.main_head >span {
+	color: #6898c2;
+}
+.main_container {
+	height: 1192px;
+	background-color: #eeedec
+}
+.main_container > .wrap {
+	padding: 20px 71px 153px 58px;
+}
+.main_container > .wrap > div{
+	background-color: #ffffff;
+	position: relative;
+}
+/*查询栏*/
+.main_search {
+	height: 84px;
+}
+.main_search > .s_select {
+	height: 26px;
+}
+.main_search label,
+.main_search select,
+.main_search option{
+	font-size: 12px;
+}
+.main_search label {
+	color: #aaaaaa;
+}
+
+/*历史查询*/
+.main_history{	
+	margin-top: 8px;
+	height: 64px;
+}
+/*统计*/
+.main_statement {
+	margin-top: 39px;
+	height: 71px;
+}
