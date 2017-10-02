@@ -1,0 +1,32 @@
+table{
+	margin: 0 auto;
+}
+tbody{
+	text-align: left;
+}
+thead{			
+	background-color: black;
+	color: white;
+}
+tbody>tr:nth-child(-n+3){
+	color: red;
+}
+tr:nth-child(2n){
+	background-color: grey;
+}
+div {
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.s_1{
+	width: 150px;
+	height: 60px;
+	border:2px solid rgba(155,925,242,0.8);
+}
+.s_2{
+	width: 250px;
+	height: 80px;
+	border:1px solid rgba(155,925,242,.8);
+	box-shadow: 1px 1px rgba(155,925,242,.7);
+	border-radius: 1em;
+}
